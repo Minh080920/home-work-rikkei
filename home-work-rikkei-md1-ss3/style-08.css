@@ -1,0 +1,44 @@
+.blog {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #f3f3f3;
+  border-radius: 10px;
+  border-left: 6px solid #2b6cb0;
+}
+
+.blog-content2 {
+  display: inline;
+}
+.blog-content2::first-letter {
+  font-size: 50px;
+  color: #2b6cb0;
+  font-weight: bold;
+  float: left;
+  line-height: 0.85;
+  margin-right: 8px;
+  margin-top: 4px;
+  font-family: "Georgia", serif;
+}
+
+.blog-content::before {
+  content: "“ ";
+  font-weight: bold;
+  color: #7a777799;
+  font-size: 40px;
+  line-height: 0;
+  vertical-align: middle;
+}
+
+.blog-content::after {
+  content: " ”";
+  font-weight: bold;
+  color: #7a777799;
+  font-size: 40px;
+}
+
+.blog-author {
+  text-align: right;
+  font-size: 15px;
+  color: #938f8f;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1>Đăng ký đặt vé sự kiện âm nhạc </h1>
+
+        <form>
+            <label for="name"> Họ và tên </label>
+            <input type="text" id="name" name="name" placeholder="Nhập họ và tên..." required minlength="3" maxlength="50"><br><br>
+
+            <label for="numberTickets">Số lượng vé</label>
+            <input type="number" id="numberTickets" name="numberTickets" min="1" max="5" value="1"><br><br>
+
+            <label for="ticketcode">Mã vé (Đã cấp sẵn)</label>
+            <input type="text" id="ticketcode" name="ticketcode" value="MUCSIC-VIP-2026" readonly><br><br>
+
+            <label for="staffdiconuscode">Mã vé (Đã cấp sẵn)</label>
+            <input type="text" id="staffdiconuscode" name="staffdiconuscode" value="NOT-ELIGIBLE" disabled><br><br>
+
+            <input type="submit" value="Xác nhận đặt vé">
+
+        </form>
+    </section>
+</body>
+</html>
