@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner-coffe {
+  background: #ffffff34
+    url("https://t4.ftcdn.net/jpg/03/26/12/23/360_F_326122335_RKvTXMb4RYkIzk94ZoPjkZQe2CUOVnen.jpg")
+    no-repeat right top;
+  color: #fff;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  text-align: justify;
+  padding: 20px;
+  margin: 50px auto;
+  border: 2px solid rgb(11, 11, 11);
+  border-radius: 10px;
+}
+.banner-coffe h3 {
+  color: rgb(3, 242, 19);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
