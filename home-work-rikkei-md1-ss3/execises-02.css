@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid black;
+  margin: 50px auto;
+  padding: 15px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+h2 {
+  font-weight: 900;
+  padding-bottom: 15px;
+}
+
+h3 {
+  font-weight: bold;
+  color: gray;
+  padding-bottom: 15px;
+}
+
+p {
+  line-height: 1.5;
+}
