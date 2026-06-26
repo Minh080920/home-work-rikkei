@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", Helvetica, sans-serif;
+}
+.category-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn-item {
+  display: inline-block;
+  width: 180px;
+  padding: 10px 0;
+  margin: 5px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #1e88e5;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 13px;
+}
