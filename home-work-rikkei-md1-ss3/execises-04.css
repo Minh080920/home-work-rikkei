@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", Helvetica, sans-serif;
+}
+
+.course {
+  width: 500px;
+  margin: 50px auto;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+h2 {
+  color: #333;
+}
+
+.course h2 + p {
+  letter-spacing: 2px;
+  color: #666;
+  font-style: italic;
+  padding-top: 5px;
+}
+
+.course ul {
+  margin: 10px;
+  /* padding: 10px; */
+  list-style-type: square;
+}
+
+.course ul > li {
+  color: red;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.course ul ul li {
+  color: #000000;
+}
+
+.course a {
+  text-decoration: none;
+  color: red;
+}
+
+.course a:hover {
+  color: blue;
+}
